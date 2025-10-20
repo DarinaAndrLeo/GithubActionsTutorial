@@ -33,7 +33,7 @@ def minimum(*args):
         The minimum
     """
     if not any([isinstance(arg, numbers.Real) for arg in args]):
-            return
+        return #this is the line that was fixed in the demo
 
     the_min = float("inf")
     for arg in args:
